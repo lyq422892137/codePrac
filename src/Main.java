@@ -1,15 +1,10 @@
 public class Main {
     public static void main(String[] args){
-        Q3 q3 = new Q3();
-//        {67,0,24,58}
-        Q3ListNode listNode = new Q3ListNode(67);
-        Q3ListNode listNode0 = new Q3ListNode(0);
-        Q3ListNode listNode1 = new Q3ListNode(24);
-        Q3ListNode listNode2 = new Q3ListNode(58);
-        Q3ListNode.insertFromTail(listNode,listNode0);
-        Q3ListNode.insertFromTail(listNode,listNode1);
-        Q3ListNode.insertFromTail(listNode,listNode2);
-        Q3ListNode.printList(listNode);
-        System.out.println(q3.printListFromTailToHead(listNode));
+//        int [] pre = {1,2,4,7,3,5,6,8};
+//        int [] in = {4,7,2,1,5,3,8,6};
+        ReverseInteger rs = new ReverseInteger();
+        int k = rs.reverse(-123);
+//        9646324351
+        System.out.println(k);
     }
 }
